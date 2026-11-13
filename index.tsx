@@ -28,11 +28,11 @@ export default function HomeScreen() {
 
         accessibilityRole="button" 
 
-        onPress={() => setMessage("Your request was sent.")} 
+        onPress={() => setMessage("Naming a specific tool.")} 
 
       > 
 
-        <Text style={styles.buttonText}>Submit</Text> 
+        <Text style={styles.buttonText}>Tap here to submit</Text> 
 
       </Pressable> 
 
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
 
   title: { 
 
-    fontSize: 24, 
+    fontSize: 28, 
 
     fontWeight: "bold", 
 
